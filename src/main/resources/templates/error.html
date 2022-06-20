@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Error!</title>
+</head>
+<body>
+	<h1>エラーページ</h1>
+	<form>
+		<div th:text="'timestamp: ' + ${timestamp}"></div>
+		<div th:text="'status: ' + ${status}"></div>
+		<div th:text="'path: ' + ${path}"></div>
+	</form>
+</body>
+</html>
